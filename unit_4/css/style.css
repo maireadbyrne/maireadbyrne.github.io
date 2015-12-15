@@ -1,4 +1,4 @@
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic,800' rel='stylesheet' type='text/css'>
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,800);
 body {
 	color: #14240D;
 	background: #FFFFFF;
@@ -12,6 +12,7 @@ p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: medium;
+	line-height: 24px;
 }
 ul {
 	font-family: 'Open Sans', sans-serif;
@@ -19,7 +20,10 @@ ul {
 	font-size: medium;
 }
 li {
-
+	line-height: 26px;
+}
+a {
+	text-decoration: none;
 }
 img {
 	width: 235px;
@@ -30,5 +34,9 @@ img {
 		color: rgba(20,36,13,0.5);
 }
 #main {
-	width: 817px;
+	width: 817px;	
 }
+#description {
+	font-size: 18px;
+	font-weight: 600;
+	}
