@@ -1,0 +1,219 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,800);
+* {
+	padding: 0;
+	margin: 0;
+}
+	body {
+	color: #14240D;
+	background: #FFFFFF;
+}
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #800000;
+	text-align: center;
+}
+h2 {
+	font-family: 'Palatino', serif;
+	font-weight: 600;
+	color: #800000;
+	padding-left: 40px;
+	line-height: 48px;
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: large;
+	color: #004c4d;
+	padding-left: 40px;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #004c4d;
+	margin-right: 10px;
+	padding-left: 40px;
+}
+nav a:hover {
+	color:#800000;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: medium;
+	line-height: 24px;
+	padding-left: 40px;
+}	
+ul {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: medium;
+	padding-left: 60px;
+}
+li {
+	line-height: 26px;
+}
+a {
+	color: #004c4d;
+	text-decoration: none;
+}	
+a:hover {
+	color:#800000;
+}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	color: #004c4d;	
+	padding: 40px;
+}
+img {
+	width: 235px;
+}
+#one {
+	background-color: #FFE2B8;
+	border: 1 px black solid;
+	padding: 20px;
+	font-family: 'Palatino', serif;
+	font-size: larger;
+	line-height: 24px;
+	padding-left: 200px;
+	max-width: 770px;
+}
+#two {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: 'Palatino', serif;
+	font-size: large;
+	line-height: 20px;
+	padding-left: 40px;	
+	width: 800px;
+}
+#three {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: 'Open Sans', sans-serif;	
+}
+#about {
+	font-family: 'Open Sans', sans-serif;
+	padding-left: 50px;
+	width: 800px;
+}
+#books {
+	padding-left: 40px;
+}
+#main {
+	width: 100%;
+	padding-left: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#two_column {
+    background-color: #FFB7CF;
+    border: 1px black solid;
+    padding: 20px;
+}
+#three_column {
+    background-color: #FFFFFF;
+    border: 1px black solid;
+    padding: 20px;
+}
+#left {
+    background-color: violet;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 40%;
+}
+#right {
+    background-color: pink;
+    border: 1px black solid;
+    padding: 20px;
+    float:right;
+    width: 40%;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+#books_left {
+    background-color: #FFFFFF;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+#books_center {
+background-color: #FFFFFF;
+    border: 1px black solid;
+    padding: 20px;	
+    float: left;
+}
+
+#books_right {
+    background-color: #FFFFFF;
+    border: 1px black solid;
+    padding: 20px;
+    float: left;
+    width: 30%;
+}
+
+.wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+.description {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+	width: 800px;
+}
+.summary {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+aside {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #004c4d;
+	margin-right: 60px;
+	margin-top: 20px;
+	float: right;
+}
+aside a:hover {
+	color:#800000;
+}
+.poem {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+	font-family: 'Palatino', serif;
+	width: 400px;
+	text-align: justify;
+	text-align: inter-word;
+	font-size: small;
+}
+footer {
+	background-color: #FF957E; 
+	border: 1px black solid;
+	padding: 20px;font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: medium;
+	line-height: 24px;
+	text-align: center;
+	padding: 20px;
+}
