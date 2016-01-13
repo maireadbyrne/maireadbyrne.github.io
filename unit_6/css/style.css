@@ -3,9 +3,41 @@
 	padding: 0;
 	margin: 0;
 }
-	body {
+html {
+	display: block;
+}
+head {
+	display: none;
+}
+body {
 	color: #14240D;
 	background: #FFFFFF;
+}
+.wrapper {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	color: #004c4d;
+	padding: 40px;
+}
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+nav a {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #004c4d;
+	margin-right: 10px;
+	padding-left: 40px;
+}
+nav a:hover {
+	color:#800000;
 }
 h1 {
 	font-family: 'Open Sans', sans-serif;
@@ -25,29 +57,12 @@ h3 {
 	font-weight: 600;
 	font-size: large;
 	color: #004c4d;
-	padding-left: 40px;
-}
-nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
-}
-nav a {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	color: #004c4d;
-	margin-right: 10px;
-	padding-left: 40px;
-}
-nav a:hover {
-	color:#800000;
 }
 p {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 500;
 	font-size: medium;
 	line-height: 24px;
-	padding-left: 40px;
 }	
 ul {
 	font-family: 'Open Sans', sans-serif;
@@ -65,19 +80,22 @@ a {
 a:hover {
 	color:#800000;
 }
-header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
-	color: #004c4d;	
-	padding: 40px;
-}
 img {
-	width: 235px;
+	width: 15%;
+	display: inline-block;
+}
+aside {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #004c4d;
+	margin-right: 60px;
+    float: right;
+}
+aside a:hover {
+	color:#800000;
 }
 #one {
 	background-color: #FFE2B8;
-	border: 1 px black solid;
 	padding: 20px;
 	font-family: 'Palatino', serif;
 	font-size: larger;
@@ -115,15 +133,21 @@ img {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
+#landscape {
+	width: 23%;
+	display: inline-block;
+}
 #two_column {
     background-color: #FFB7CF;
     border: 1px black solid;
     padding: 20px;
+    width: 100%;
 }
 #three_column {
     background-color: #FFFFFF;
     border: 1px black solid;
     padding: 20px;
+    width: 100%;
 }
 #left {
     background-color: violet;
@@ -136,7 +160,7 @@ img {
     background-color: pink;
     border: 1px black solid;
     padding: 20px;
-    float:right;
+    float:left;
     width: 40%;
 }
 .clearfix:after {
@@ -152,28 +176,12 @@ img {
     border: 1px black solid;
     padding: 20px;
     float: left;
-    width: 30%;
 }
-
-#books_center {
-background-color: #FFFFFF;
-    border: 1px black solid;
-    padding: 20px;	
-    float: left;
-}
-
 #books_right {
     background-color: #FFFFFF;
     border: 1px black solid;
     padding: 20px;
     float: left;
-    width: 30%;
-}
-
-.wrapper {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
 }
 .description {
 	background-color: #E89C6C;
@@ -186,26 +194,13 @@ background-color: #FFFFFF;
 	border: 1px black solid;
 	padding: 20px;
 }
-aside {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	color: #004c4d;
-	margin-right: 60px;
-	margin-top: 20px;
-	float: right;
-}
-aside a:hover {
-	color:#800000;
-}
 .poem {
 	background-color: #FFE2B8;
 	border: 1px black solid;
-	padding: 20px;
 	font-family: 'Palatino', serif;
-	width: 400px;
 	text-align: justify;
-	text-align: inter-word;
 	font-size: small;
+	padding: 30px;
 }
 footer {
 	background-color: #FF957E; 
