@@ -18,7 +18,7 @@ head {
 body {
 	color: #14240D;
 	background: #FFFFFF;
-	font-size: 20px;
+	font-size: 1em;
 }
 .wrapper {
 	background-color: #FFFFFF;
@@ -203,6 +203,7 @@ aside a:hover {
 }
 .summary h2 {
 	font-family: 'Nunito', sans-serif;
+	font-size: 1em;
 }
 .summary p {
 	font-weight: 600;
@@ -269,5 +270,14 @@ nav a {
 @media only screen and (max-width: 480px) {
 	aside {
 		display: none;
+	}
+@media only screen and (max-width: 480px) {
+	.summary h2 {
+		font-size: 1.5em;
+		line-height: 1em;
+	}
+@media only screen and (max-width: 480px) {
+	.wrapper {
+		width: auto;
 	}
 }	
