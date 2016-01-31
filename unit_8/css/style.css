@@ -1,0 +1,273 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,800);
+@import url(https://fonts.googleapis.com/css?family=Berkshire+Swash);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:700);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,400italic,300italic,300);
+* {
+	padding: 0;
+	margin: 0;
+}
+html {
+	display: block;
+}
+head {
+	display: none;
+}
+body {
+	color: #14240D;
+	background: #FFFFFF;
+	font-size: 20px;
+}
+.wrapper {
+	background-color: #FFFFFF;
+	border: 1px solid #800000;
+	padding: 2%;
+}
+header {
+	font-size: 2.5em;
+	background-color: #FFFFFF;
+	color: #004c4d;
+	padding: 1%;
+}
+nav {
+	font-size: 1.2em;
+	background-color: #FFFFFF;
+	padding: 1%;
+}
+nav a {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	color: #004c4d;
+	margin-right: 1%;
+	padding-left: 4%;
+}
+nav a:hover {
+	color:#800000;
+}
+h1 {
+	font-family: 'Berkshire Swash', sans-serif;
+	font-weight: 400;
+	color: #800000;
+	text-align: center;
+}
+h2 {
+	font-family: 'Merriweather', serif;
+	font-weight: 600;
+	color: #800000;
+	padding-left: 1%;
+}
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-size: large;
+	color: #004c4d;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: medium;
+	line-height: 1.2em;
+}	
+ul {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	font-size: medium;
+	padding-left: 5%;
+}
+li {
+	line-height: 1.33em;
+}
+a {
+	color: #004c4d;
+	text-decoration: none;
+}	
+a:hover {
+	color:#800000;
+}
+img {
+	width: 15%;
+	display: inline-block;
+}
+aside {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #004c4d;
+	margin-right: 5%;
+    float: right;
+}
+aside a:hover {
+	color:#800000;
+}
+#one {
+	background-color: #FFFFFF;
+	padding: 2%;
+	font-family: 'Palatino', serif;
+	font-size: larger;
+	line-height: 1.2em;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 55%;
+}
+#two {
+	background-color: #FFFFFF;
+	border: 1px solid #800000;
+	padding-left: 2%;
+	padding-bottom: 2%;
+	font-family: 'Merriweather', serif;
+	font-size: small;
+	width: 96%;
+	margin-top: 2%;
+}
+#three {
+	background-color: #FFFFFF;
+	padding: 1.5%;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.2em;
+}
+#about {
+	font-family: 'Open Sans', sans-serif;
+	padding: 10%;
+	width: 50%;
+}
+#about h1 {
+	font-size: 1.2em;
+}
+
+#books {
+	padding-left: 2em;
+}
+#main {
+	width: 100%;
+	padding-left: 3%;
+	padding-top: 0px;
+	padding-bottom: 1%;
+}
+#landscape {
+	width: 23%;
+	display: inline-block;
+}
+#two_column {
+    background-color: #FFFFFF;
+    border: 1px solid #800000;
+    width: 55%;
+    float: left;
+	margin-top: 2%;
+    margin-bottom: 2%;
+}
+#three_column {
+    background-color: #FFFFFF;
+    border: 1px solid #800000;
+    padding: 1em;
+    width: 100%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.clearfix {
+	overflow: auto;
+}
+#books_left {
+    background-color: #FFFFFF;
+    border: 1px solid #800000;
+    padding: 1em;
+    float: left;
+}
+#books_right {
+    background-color: #FFFFFF;
+    border: 1px solid #800000;
+    padding: 1em;
+    float: left;
+}
+#description {
+	background-color: #FFFFFF;
+	border: 1px solid #800000;
+	font-family: 'Merriweather';
+	padding-left: 5%;
+	width: 30%;
+	float left;
+}
+.summary {
+	background-color: #FFFFFF;
+	border: 1px solid #800000;
+	padding: 1.5%;
+	margin-top: 2%;
+	width: 95%;
+}
+.summary h2 {
+	font-family: 'Nunito', sans-serif;
+}
+.summary p {
+	font-weight: 600;
+	padding-left: 1%;
+}
+.poem {
+	background-color: #FFFFFF;
+	text-align: justify;
+}
+.poem p {
+	font-family: 'Roboto', sans-serif;
+	color: #3d3d5c;
+	line-height: 1.4em;
+	font-weight: 300;
+	font-size: medium;
+}
+#just-out,#left, #right { 
+	width: 30%;
+	display: inline-block;
+	margin-right: 3%;
+	vertical-align:top;
+}
+#just-out p {
+	color: #0a0a0f;
+	line-height: 1.4em;
+}
+#left {
+	font-weight: normal;
+	padding-bottom: 1.2em;
+}
+#right {
+	font-weight: lighter;
+	padding-bottom: .5em;
+}
+
+footer {
+	background-color: #FFFFFF; 
+	padding: 2%;
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.2em;
+	line-height: 1.2em;
+	text-align: center;
+	padding: 2%;
+}
+@media only screen and (max-width: 768px) {
+	#just-out, #left, #right {
+		float: none;
+		width: auto;
+		padding-left: .55em;
+}	
+@media only screen and (max-width: 768px){
+	aside {
+		display: none;
+}
+nav a {
+	display: block;
+	text-align: center;
+	margin: 0;
+}
+@media only screen and (max-width: 768px){
+	body {
+		font-size: 20px;
+	}
+@media only screen and (max-width: 480px) {
+	aside {
+		display: none;
+	}
+}	
