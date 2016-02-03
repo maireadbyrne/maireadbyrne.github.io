@@ -281,6 +281,23 @@ footer {
 		width: auto;
 	}
 
+	nav a {
+		display: block;
+		text-align: center;
+		margin: 0;
+	}
+	#main {
+	display: block;
+	width: 96%;
+	padding-top: 0px;
+	padding-bottom: 1%;
+	}
+
+	#one {
+	max-width: 96%;
+	padding: none;
+	}
+
 	#books_left, #books_right {
 		display: block;
 		text-align: center;
@@ -288,12 +305,14 @@ footer {
 		width: auto;
 		margin: 0;
 	}
+
 	.book {
 		display: block;
 		width: 80%;
 		margin-bottom: 1em;
 		padding-left: 1.5em;
 	}
+	
 	#landscape {
 		display: block;
 		width: 100%;
