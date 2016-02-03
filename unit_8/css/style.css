@@ -290,8 +290,15 @@ footer {
 	}
 	.book {
 		display: block;
+		width: 80%;
+		margin-bottom: 1em;
+		padding-left: 1.5em;
+	}
+	#landscape {
+		display: block;
 		width: 100%;
 		margin-bottom: 1em;
+		padding-left: .1em;
 	}
 }
 
