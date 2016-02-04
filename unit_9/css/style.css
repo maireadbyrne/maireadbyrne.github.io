@@ -134,9 +134,13 @@ aside a:hover {
 	font-family:'Nunito', sans-serif;
 	padding-left: 10%;
 }
-#blank {
-	padding-top: 35%;
+#blank1 {
+	padding-top: 20%;
 }
+#blank2 {
+	padding-top: 50%
+}
+
 #books {
 	padding-left: 2em;
 }
